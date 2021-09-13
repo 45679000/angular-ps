@@ -1,0 +1,12 @@
+     <div class="main">
+        <aside class="sidebar">
+          <h2>Categories</h2>
+          <h2><a routerLink="">General</a></h2>
+          <nav class="nav">
+            <ul *ngFor="let cat of categoriez">
+              <li><a href="categories/{{cat.id}}">{{cat.categoryName}}</a></li>
+            </ul>
+          </nav>
+        </aside>
+    
+      </div>

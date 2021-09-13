@@ -1,0 +1,18 @@
+{
+   
+    "products": [
+        {
+            "name": "yoshi",
+            "belt": "black"
+        },
+        {
+            "name": "ryu",
+            "belt": "orange"
+        },
+        {
+            "name": "kamau",
+            "belt": "yellow"
+        }
+    ]
+}
+  

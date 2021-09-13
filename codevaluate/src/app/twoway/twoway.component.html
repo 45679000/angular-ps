@@ -1,0 +1,48 @@
+<input type="text" [(ngModel)]='name'>
+<p>twoway works!</p>
+<h3>{{name}}</h3>
+<h2 *ngIf="isTrue">Come my way</h2>
+<!-- conditional -->
+<h3 *ngIf="isTrue; else elseBlock">Out of my way</h3>
+<ng-template #elseBlock>
+    <h1>
+        i want this girl to come and dance with me
+    </h1>
+</ng-template>
+
+<!-- separation of concerns -->
+<div *ngIf="isTrue; then thenBlock; else elselseBlock"></div>
+
+<ng-template #thenBlock>
+    <h2>Sarkodie</h2>
+</ng-template>
+
+<ng-template #elselseBlock>
+    <h2>Sarkcess</h2>
+</ng-template>
+
+<!-- ngSwitch -->
+<div class="switch-container" [ngSwitch]='color'>
+    <div *ngSwitchCase="'red'" [style.color]="color">
+        You've picked red
+    </div>
+    <div *ngSwitchCase="'yellow'" [style.color]="color">
+        You've picked yellow
+    </div>
+    <div *ngSwitchCase="'green'" [style.color]="color">
+        You've picked green
+    </div>
+    <div [style.color]="color" *ngSwitchDefault>
+        Pick again
+    </div>
+</div>
+
+<!-- ngFor -->
+<div *ngFor="let rangi of rangis; index as i; first as f; last as l; even as e; odd as o">
+    <div [style.color]="rangi">{{rangi}} {{i}} {{f}} {{l}} {{e}} {{o}}</div>
+</div>
+<ul *ngFor="let car of cars">
+    <li [style.textTransform]="transformer">{{car}}</li>
+</ul>
+<h2>{{parentData}}</h2>
+<button (click)="fireEvent()">halleluyah</button>

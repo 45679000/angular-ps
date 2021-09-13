@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    /* display: flex; */
+}
+.sidebar-links{
+    /* float: left; */
+    /* position: fixed; */
+    padding: 1rem;
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    height: 100%;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.links a{
+    margin-bottom: 1rem;
+}
+/* .settings-link{
+    position: absolute;
+    bottom: 0; */
+/* } */
+.main-content{
+    margin-left: 200px;
+}

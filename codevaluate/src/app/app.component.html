@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>Fly away</h1>
+  <h1>{{message}}</h1>
+  <ul>
+    <li><a (click)="styleClickedComponet()" [routerLink]="['routing']">routing-component</a></li>
+    <li><a (click)="styleClickedComponet()" [routerLink]="['twoway']">twoway-component</a></li>
+  </ul>
+  <!-- <app-twoway [parentData]='name' (childEvent)="message=$event"></app-twoway>
+  <app-routing></app-routing> -->
+</div>
+<div>
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,20 @@
+<h1>home works!</h1>
+<p>fly away</p>
+<!-- <span>{{title}}</span> -->
+<p>{{todayDate()}}</p>
+<h2 [ngClass]="element">Halleluyah</h2>
+<!-- style binding -->
+<!-- multiple styles from a property in component.ts-->
+<span [ngStyle]="spanStyles">Wife you</span>
+<!-- conditional styling -->
+<p [style.color]="isRed ? 'pink' : 'orange'">Ha ha ha</p>
+<button (click)="karibu()">Welcome</button>
+<p [style.display]="isDisplay">{{karibuMessage}}</p>
+<button (click)="essage($event)">Welcome</button>
+<p>{{karibuMessage}}</p>
+<input type="text" name="R" id="Bra" #inputValue placeholder="Type anything">
+<button (click)='logInput(inputValue.value)'>goose</button>
+<button (click)='logInput(inputValue)'>goose</button>
+<button (click)='logInput(inputValue.placeholder)'>goose</button>
+<input type="text" name="R" id="Bra" [(ngModel)]="name" placeholder="Type anything">
+<p [ngStyle]="pstyle">{{name}}</p>

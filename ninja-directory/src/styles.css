@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+div{
+    text-align: center;
+}
+h1:hover, .fly:hover{
+    color: brown;
+}
+.container{
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.fly{
+    color: green;
+}
+.fly p{
+    color: greenyellow;
+}

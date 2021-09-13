@@ -1,0 +1,33 @@
+<div class="container">
+<form #createNewMovie="ngForm" (submit)="addNewMovie(createNewMovie)">
+    <!-- title -->
+    <div class="input-container">
+        <label for="movieName">Title</label>
+        <input type="text" name="movieName" ngModel #inputName required>
+    </div>
+    <!-- release date -->
+    <div class="input-container">
+        <label for="relDate">Date of release</label>
+        <input type="text" name="relDate" ngModel #inputName required>
+    </div>
+    <!-- rating -->
+    <div class="input-container">
+        <label for="movRating">Movie rating</label>
+        <input type="text" name="movRating" ngModel  #inputName required>
+    </div>
+    <!-- review -->
+    <div class="input-container">
+        <label for="movieRev">Movie Review</label>
+        <input type="text" name="movRev" ngModel #inputName required>
+    </div>
+    <!-- category -->
+    <div class="input-container">
+        <label for="movieCat">Category</label>
+        <input type="text" name="movieCat" ngModel #inputName required>
+    </div>
+    <input type="submit" value="Create">
+</form>
+<div>
+    <p>{{nameOfUser}}</p>
+</div>
+</div>

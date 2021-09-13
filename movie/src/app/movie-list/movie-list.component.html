@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="container-header">
+        <h2>coming soon</h2>
+        <h3>showing 28 of 28</h3>
+        <h2>{{movieX}}</h2>
+    </div>
+    <div class="list-of-movies" >
+        <div class="movie" *ngFor="let movie of moviez">
+            <div class="movie-pic">
+                <img src="{{movie.avatar}}" alt="">
+            </div>
+            <!-- [routerLink]="['details/{{movieX}}']" -->
+            <h4><a routerLink = "details/{{movie.movieId}}">{{movie.movieTitle | uppercase}}</a></h4>
+            <p class="movie-rating">{{movie.movieRating}}</p>
+            <p class="date-released">{{movie.releaseDate | date: "longDate"}}</p>
+        </div>
+    </div>
+    <!-- <div *ngFor="let movie of moviez">
+        <img width="200px" src="movie.avatar" alt="">
+    </div> -->
+</div>

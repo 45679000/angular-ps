@@ -1,0 +1,94 @@
+{
+    "movies": [
+        { 
+            "movieId": 1, 
+            "movieTitle": "joker", 
+            "releaseDate": "10/4/2021",
+            "movieRating": "90%",
+            "movieReview": "",
+            "avatar": "http://localhost:3000/fifty.jpg",
+            "category": "1"
+        },
+        { 
+            "movieId": 2, 
+            "movieTitle": "jumanji", 
+            "releaseDate": "10/24/2021",
+            "movieRating": "90%",
+            "movieReview": "",
+            "avatar": "http://localhost:3000/fifty.jpg",
+            "category": "2"  
+        },
+        { 
+            "movieId": 3, 
+            "movieTitle": "suicide squad", 
+            "releaseDate": "9/6/2021",
+            "movieRating": "90%",
+            "movieReview": "",
+            "avatar": "http://localhost:3000/suicidesquad.jpg",
+            "category": "1"
+        },
+        { 
+            "movieId": 4, 
+            "movieTitle": "john wick", 
+            "releaseDate": "10/22/2021",
+            "movieRating": "90%",
+            "movieReview": "",
+            "avatar": "http://localhost:3000/john.jpg",
+            "category": "2"
+        },
+        { 
+            "movieId": 5, 
+            "movieTitle": "batman", 
+            "releaseDate": "01/08/2021",
+            "movieRating": "90%",
+            "movieReview": "",
+            "avatar": "http://localhost:3000/batman.jpg",
+            "category": "3"
+        },
+        { 
+            "movieId": 6, 
+            "movieTitle": "lion king", 
+            "releaseDate": "4/11/2021",
+            "movieRating": "99%",
+            "movieReview": "",
+            "avatar": "http://localhost:3000/lion.jpg",
+            "category": "5"
+        },
+        { 
+            "movieId": 7, 
+            "movieTitle": "spider man", 
+            "releaseDate": "10/4/2021",
+            "movieRating": "93%",
+            "movieReview": "",
+            "avatar": "http://localhost:3000/fifty.jpg",
+            "category": "1"
+        },
+        { 
+            "movieId": 8, 
+            "movieTitle": "legion", 
+            "releaseDate": "4/12/2021",
+            "movieRating": "60%",
+            "movieReview": "",
+            "avatar": "http://localhost:3000/wall.jpg",
+            "category": "3"
+        },
+        { 
+            "movieId": 9, 
+            "movieTitle": "creed", 
+            "releaseDate": "4/4/2021",
+            "movieRating": "60%",
+            "movieReview": "",
+            "avatar": "http://localhost:3000/fifty.jpg",
+            "category": "1"
+        }
+    ],
+    "categories":[
+        {"id":1 , "categoryName": "Action"},
+        {"id":2 , "categoryName": "Horror"},
+        {"id":3 , "categoryName": "Thriller"},
+        {"id":4 , "categoryName": "Drama"},
+        {"id":5 , "categoryName": "Comedy"},
+        {"id":6 , "categoryName": "Sci-fi"},
+        {"id":7 , "categoryName": "Investigative"}
+    ]
+}
